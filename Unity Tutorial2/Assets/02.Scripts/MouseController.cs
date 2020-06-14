@@ -13,5 +13,9 @@ public class MouseController : MonoBehaviour
         {
             t_hit.transform.GetComponent<DebrisCube>().Explosion();
         }
+        else
+        {
+            return;
+        }
     }
 }
